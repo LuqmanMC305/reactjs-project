@@ -1,0 +1,504 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(./Fonts/Montserrat-Medium.ttf);
+}
+  
+@font-face{
+    font-family: Montserrat Bold;
+    src: url(./Fonts/Montserrat-ExtraBold.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* First Page */
+  
+.first-page{
+    /*background-color: #23272f;*/
+    background-image: url('./Images/carpark2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Montserrat, system-ui, Arial;
+    height: 40rem;
+  
+  
+}
+
+  
+ul{
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+    list-style-type: none;
+    background-color: rgb(26, 25, 25);
+    margin: 0;
+    padding: 0;
+    height: 4rem;
+    font-family: Montserrat Bold;
+    position: sticky;
+    top: 0;
+     
+}
+  
+li{
+    display: inline;
+    float: right;
+    display: block;
+    padding: 20px 10px;
+}
+  
+a {
+    text-decoration: none;
+    color: white;
+}
+  
+.next-seed-img{
+    float: left;
+    width: 9rem;
+    position: absolute; 
+    top: 2rem;
+  
+}
+  
+.desc{
+     display: flex;
+     text-align: center;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     padding: 10rem;
+     
+}
+  
+.title{
+    color: white;
+    font-weight:bolder;
+    font-size: 28px;
+    text-align: center;
+    max-width: 45rem;
+    font-family: Montserrat Bold;
+  
+}
+  
+.button-container, .read-more, .about-us{
+     background-color: #00BF63;
+     text-decoration: none;
+     color: white;
+     padding: 10px;
+     border-radius: 5px;
+     width: 150px;
+     font-weight: bolder;
+     text-align: center;
+  
+}
+  
+.title2{
+    color: white;
+}
+  
+.title3{
+    color: #7ED957;
+    font-weight: bolder;
+}
+
+/* Page 2 (Company Info) */
+
+.company-info, .p3{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Montserrat, Arial;
+}
+
+.company-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: -5rem;
+    margin-left: 3rem;
+    gap: 2rem;
+   
+}
+
+.company-hq-img{
+    width: 40rem;
+    height: 35rem;
+    float: right;
+    
+}
+
+.company-desc{
+    text-align:justify;
+    font-size: 15px;
+    max-width: 32rem;
+}
+
+.our-company{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+/* Page 3 */
+
+.nextseed-img{
+    width: 40rem;
+    height: 35rem;
+    float: right;
+}
+
+
+.p3-container{
+    background-color: #353330;
+    color: white;
+    height: 35rem;
+    padding: 20px;
+}
+
+.p3-header{
+    margin-top: 3rem;
+    font-size: 32px;
+}
+
+.explore-more{
+    background-color: #7ED957;
+    position: absolute;
+    margin-top: 2rem;
+    color: black;
+    padding: 10px;
+    width: 150px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.p3-desc{
+    margin-top: 3rem;
+    text-align: justify;
+}
+
+/* Page 4 */
+
+.p4-header, .p5-header, .p6-header{
+    border: 30px solid #242325;
+}
+
+.nextseed-img-p4{
+    float: left;
+    width: 13rem;
+    margin-left: -3rem;
+    margin-top: -3rem;
+    border-radius: 8px;
+}
+
+.p4-main{
+    margin-top: 5rem;
+    margin-right: 10rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat, Arial;
+    font-size: 15px;
+}
+
+.div-tech, .sdg, .clients{
+    flex: 1;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+.clients{
+    background-color: #FCD24F;
+    width: 45rem;
+    align-items: center;
+    font-family: Montserrat, Arial;
+    text-align: center;
+    margin-left: 10rem;
+    margin: 2rem auto;
+}
+
+.clients-name{
+    text-align: center;
+}
+
+.img-client-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.gate-img{
+   width: 200px;
+   margin-top: 40px;
+}
+
+.client-img{
+    width: 100px;
+}
+
+#ikea-img{
+    margin-left: 1rem;
+}
+
+
+.sdg-img{
+    width: 150px;
+   
+}
+
+/* Page 5 */
+
+.p5-content{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat, Arial;
+}
+
+.p5-title{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.p5-info{
+    text-align: justify;
+}
+
+.bar-chart-img{
+    width: 30rem;
+}
+
+.revenue-container, .profit-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.revenue-box, .profit-box{
+    background-color: #00BF63;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.profit-box{
+    background-color: #7ED957;
+}
+
+.about-us{
+    font-family: Montserrat, Arial;
+    float: right;
+    position: relative;
+    right: 40%;
+    margin-bottom: 50px;
+    border-radius: 0;
+    width: 7rem;
+}
+
+/* Page 6 */
+
+.p6-header{
+    margin-top: 5rem;
+}
+
+.p6-content{
+    margin-top: 5rem;
+    font-family: Montserrat, Arial;
+}
+
+.p6-title{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 6rem;
+}
+
+.member-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.member-img, .member-img-luqman{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid #004AAD;
+    object-fit:cover;
+
+}
+
+.p7-header{
+    margin-top: 5rem;
+    border: 50px solid #00BF63;
+
+}
+
+.p7-header .nextseed-img-p4{
+     margin-left: -4rem;
+     margin-top: 1px;
+}
+
+.p7{
+    font-family: Montserrat, Arial;
+}
+.p7-content{
+    margin-top: 8rem;
+    margin-bottom: 1.5rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    gap: 1rem;
+
+}
+
+.solution h1{
+    font-size: 30px;
+}
+
+.talk-us{
+    margin-top: -3rem;
+    background-color: black;
+    color: white;
+    margin-left: 3rem;
+    padding: 10px;
+    position: absolute;
+    width: 10rem;
+    text-align: center;
+
+}
+
+.video iframe{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.footer-img{
+    width: 1215px;
+    height: 160px;
+}
+
+.p8{
+    font-family: Montserrat, system-ui, Arial;
+    background-image: url('./Images/carpark3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    margin-top: -165px;
+   
+}
+
+.p8-content{
+    display: flex;
+    flex-direction:row;
+    gap: 10rem;
+    padding: 50px;
+    margin-top: 10rem;
+    
+}
+
+.p8-content h1,h2{
+    font-size: 29px;
+    text-align: justify;
+}
+
+.subtitle, .address{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.contact-form {
+    background: #fff; 
+    border-radius: 8px; 
+    padding: 20px; 
+    width: 300px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin: auto;
+}
+
+.p8-form{
+    color: black;
+}
+  
+.form-group {
+    margin-bottom: 15px; 
+}
+  
+.form-group input, .form-group textarea {
+
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+  
+.form-group textarea {
+    height: 100px; 
+    resize: vertical; 
+}
+  
+button{
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    width: 100%; 
+}
+
+.desc-container{
+    display: flex;
+    flex-direction: row;
+    margin: -1rem;
+}
+
+
+.icon-img{
+    width: 50px;
+    margin: 1rem;
+}
+
+.address{
+    margin-left: 65px;
+}
+
+.contact-container{
+    margin-left: 2rem;
+    margin-top: -3rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+
+.contact-img{
+    margin-top: -3rem;
+}
+
+.contact-img .icon-img{
+    width: 200px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: -5rem;
+    margin-right: 3rem;
+}
+
+.social-media .icon-img{
+    width: 180px;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px;
+}
