@@ -21,7 +21,7 @@ function P7() {
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/xPO_1AQWtaA?si=ZjU422na-gMIZN7f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
-                <a className="talk-us" href="#">Talk to Us</a> {/* Add appropriate link */}
+                <a className="talk-us" href="#p8">Talk to Us</a> 
                 <img src={FooterImg} alt="footer" className="footer-img" />
             </section>
         </div>

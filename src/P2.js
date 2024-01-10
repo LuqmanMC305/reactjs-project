@@ -11,7 +11,7 @@ function P2(){
          Our Team is always motivated and optimistic to design, develop, and re-inventing new technology to solve real-life problems around us by implementing artificial intelligence in our solution. 
          Our mission is to innovate the world through AI Tech, specifically in computer vision and software providers, to make daily life more convenient. 
          Here our team would like to introduce a car app platform for car users that offer smart parking and connects car users with workshop, mechanic, and auto-part vendor for car maintenance purposes.</p>
-         <a href="https://www.google.com" class="read-more"> Read More </a>
+         <a href="https://www.linkedin.com/company/nextseed3s/?viewAsMember=true" class="read-more"> Read More </a>
         </div>
          <img src={HQ} alt="office-builing" class="company-hq-img"></img>
          

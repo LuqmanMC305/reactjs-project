@@ -4,6 +4,7 @@ import BarChart from './Images/barchart.png';
 import nextSeedImage from './Images/nextSeedOriginal.png';
 
 
+
 function P5() {
     return (
           <div>
@@ -28,7 +29,7 @@ function P5() {
                         <img src={BarChart} alt="bar-chart" className="bar-chart-img" />
                     </div>
                 </div>
-                <a href="https://www.google.com" className="about-us"  rel="noreferrer">About Us</a>
+                 <a href="#p2" className="about-us" rel="noreferrer">About Us</a>
             </section>
         </div>
     );

@@ -16,16 +16,16 @@ function App() {
         <div>
              <ul>
                 <li>
-                  <a href='#p2'>About Us</a>
+                  <a href='#p8'>Contact Us</a>
                 </li>
                  <li>
-                  <a href='#p6'>Our Teams</a>
-                </li>
-                <li>
                   <a href='#p7'>Our Product</a>
                 </li>
                 <li>
-                  <a href='#p8'>Contact Us</a>
+                  <a href='#p6'>Our Team</a>
+                </li>
+                <li>
+                  <a href='#p2'>About Us</a>
                 </li>
             </ul>
             <P1 />
